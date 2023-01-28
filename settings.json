@@ -1,0 +1,151 @@
+{
+    "activityBarBadge.background": "#000a41",
+    "activityBar.inactiveForeground": "#ffffff",
+    "activityBar.foreground": "#00cfff",
+
+    "editor.suggestSelection": "first",
+    "workbench.iconTheme": "material-icon-theme",
+    "code-runner.runInTerminal": true,
+    "prettier.requirePragma": true,
+    "prettier.useTabs": true,
+    "editor.minimap.enabled": false,
+    "window.titleBarStyle": "custom",
+    "tabnine.experimentalAutoImports": true,
+    "editor.fontFamily": "'Cascadia Code',Consolas, 'Courier New', monospace",
+    "editor.inlineSuggest.enabled": true,
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": false,
+        "plaintext": false,
+        "markdown": true,
+        "javascript": false
+    },
+    "git-graph.maxDepthOfRepoSearch": 1000,
+    "editor.guides.bracketPairs": true,
+    "vsintellicode.features.apiExamplests": "enabled",
+    "vsintellicode.features.python.deepLearning": "enabled",
+    "vsintellicode.features.apiExamples": "enabled",
+    "http.proxyAuthorization": null,
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        },
+        "Ubuntu-16.04 (WSL)": {
+            "path": "C:\\windows\\System32\\wsl.exe",
+            "args": [
+                "-d",
+                "Ubuntu-16.04"
+            ]
+        }
+    },
+    "vscode-pets.petSize": "large",
+    "vscode-pets.theme": "forest",
+    "terminal.integrated.gpuAcceleration": "off",
+    "vscode_vibrancy.theme": "Dark (Exclude Tab Line)",
+    "vscode_vibrancy.type": "ultra-dark",
+    "cSpell.userWords": [
+        "aadhar",
+        "homeservicefor",
+        "navbarfun",
+        "Patientcard",
+        "unsupportive"
+    ],
+    "git.enableSmartCommit": true,
+    "sonarlint.rules": {
+        "java:S2095": {
+            "level": "off"
+        },
+        "java:S106": {
+            "level": "off"
+        },
+        "java:S2189": {
+            "level": "off"
+        },
+        "java:S1220": {
+            "level": "off"
+        },
+        "java:S3740": {
+            "level": "off"
+        },
+        "java:S1118": {
+            "level": "off"
+        },
+        "java:S100": {
+            "level": "off"
+        },
+        "java:S101": {
+            "level": "off"
+        },
+        "java:S1854": {
+            "level": "off"
+        },
+        "java:S125": {
+            "level": "off"
+        },
+        "css:S4666": {
+            "level": "off"
+        },
+        "javascript:S6480": {
+            "level": "off"
+        }
+    },
+    "editor.fontSize": 16,
+    "workbench.colorTheme": "One Dark Pro Darker",
+    "editor.fontWeight": "bold",
+    "comments": "#00ffdb",
+    "workbench.colorCustomizations": {
+    
+        "activityBar.inactiveForeground": "#e7e7e799",
+        "activityBar.foreground": "#e7e7e7",
+        "editor.background": "#000000",
+        "editor.selectionBackground": "#264f78",
+        "editorLineNumber.activeForeground": "#4d91f7",
+        "editorLineNumber.foreground": "#f5f5f5",
+        "editor.findMatchBackground": "#515c6a",
+        "editor.findMatchBorder": "#74879f",
+        "editor.findMatchHighlightBackground": "#ea5c0055",
+        "editorSuggestWidget.background": "#0c0c24",
+        "editor.foreground": "#ffffff",
+        "sideBar.background": "#000000",
+        "sideBar.foreground": "#ffffff",
+        "editorRuler.foreground": "#5a5a5a",
+        "comments": "#00ffdb",
+        "activityBarBadge.background": "#606020",
+        "statusBar.background": "#000000",
+        "statusBarItem.remoteBackground": "#000000",
+        "scrollbarSlider.background": "#709eff",
+        "activityBar.activeBackground": "#1a1a1a",
+        "activityBar.background": "#1a1a1a",
+        "activityBarBadge.foreground": "#e7e7e7",
+        "commandCenter.border": "#e7e7e799",
+        "sash.hoverBorder": "#1a1a1a",
+        "statusBar.foreground": "#e7e7e7",
+        "statusBarItem.hoverBackground": "#1a1a1a",
+        "statusBarItem.remoteForeground": "#e7e7e7",
+        "titleBar.activeBackground": "#000000",
+        "titleBar.activeForeground": "#e7e7e7",
+        "titleBar.inactiveBackground": "#00000099",
+        "titleBar.inactiveForeground": "#e7e7e799"
+    },
+    "editor.tokenColorCustomizations": {
+        "comments": "#04c790fb",
+        
+    },
+    "yaml.schemas": {
+        "file:///c%3A/Users/223072287/.vscode/extensions/docsmsft.docs-yaml-0.2.9/out/yaml-support/toc.schema.json": "/toc\\.yml/i"
+    },
+    "react-native-tools.showUserTips": false,
+}
