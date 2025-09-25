@@ -1,4 +1,5 @@
 {
+    
     "activityBarBadge.background": "#000a41",
     "activityBar.inactiveForeground": "#ffffff",
     "activityBar.foreground": "#00cfff",
@@ -11,13 +12,15 @@
     "editor.minimap.enabled": false,
     "window.titleBarStyle": "custom",
     "tabnine.experimentalAutoImports": true,
-    "editor.fontFamily": "'Cascadia Code',Consolas, 'Courier New', monospace",
+    "editor.fontFamily": "Fira Code Light,Jetbrains Mono,Consolas Ligaturized,Hack Nerd Font Mono,Cascadia Code,Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": "'ss09', 'zero', 'onum'",
     "editor.inlineSuggest.enabled": true,
     "github.copilot.enable": {
         "*": true,
-        "yaml": false,
-        "plaintext": false,
+        "plaintext": true,
         "markdown": true,
+        "scminput": false,
+        "yaml": true,
         "javascript": false
     },
     "git-graph.maxDepthOfRepoSearch": 1000,
@@ -53,7 +56,7 @@
     },
     "vscode-pets.petSize": "large",
     "vscode-pets.theme": "forest",
-    "terminal.integrated.gpuAcceleration": "off",
+    "terminal.integrated.gpuAcceleration": "on",
     "vscode_vibrancy.theme": "Dark (Exclude Tab Line)",
     "vscode_vibrancy.type": "ultra-dark",
     "cSpell.userWords": [
@@ -102,12 +105,23 @@
             "level": "off"
         }
     },
-    "editor.fontSize": 16,
-    "workbench.colorTheme": "One Dark Pro Darker",
-    "editor.fontWeight": "bold",
+    "workbench.colorTheme": "Bearded Theme Oceanic Reversed", #Jumper Contrast, Monkai, Monkai Classic, Pentinent Contrast, bearded Reserved, Dracula
+    "editor.fontWeight": 800,
+    "terminal.integrated.fontWeight": "bold",
     "comments": "#00ffdb",
     "workbench.colorCustomizations": {
+
+
     
+
+
+    
+
+
+
+
+        "[Abyss]": {},
+
         "activityBar.inactiveForeground": "#e7e7e799",
         "activityBar.foreground": "#e7e7e7",
         "editor.background": "#000000",
@@ -121,8 +135,8 @@
         "editor.foreground": "#ffffff",
         "sideBar.background": "#000000",
         "sideBar.foreground": "#ffffff",
-        "editorRuler.foreground": "#5a5a5a",
-        "comments": "#00ffdb",
+        "editorRuler.foreground": "#5a5a5a", 
+        "comments": "#b2b2b2",
         "activityBarBadge.background": "#606020",
         "statusBar.background": "#000000",
         "statusBarItem.remoteBackground": "#000000",
@@ -145,7 +159,133 @@
         
     },
     "yaml.schemas": {
-        "file:///c%3A/Users/223072287/.vscode/extensions/docsmsft.docs-yaml-0.2.9/out/yaml-support/toc.schema.json": "/toc\\.yml/i"
+        "file:///Users/akd/.vscode/extensions/docsmsft.docs-yaml-1.0.5/dist/toc.schema.json": "/toc\\.yml/i"
     },
     "react-native-tools.showUserTips": false,
+    "terminal.integrated.env.osx": {
+        "FIG_NEW_SESSION": "1",
+        "Q_NEW_SESSION": "1"
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.fontSize": 12,
+    "terminal.integrated.fontSize": 11,
+    "editor.codeLensFontFamily": "Fira Code, Hack Nerd Font",
+    "editor.inlayHints.fontFamily": "Fira Code, Hack Nerd Font",
+    "debug.console.fontFamily": "Fira Code, Hack Nerd Font",
+    "editor.fontLigatures": true,
+    "code-runner.executorMap": {
+
+
+        "javascript": "node",
+        "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+        "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "zig": "zig run",
+        "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "php": "php",
+        "python": "python -u",
+        "perl": "perl",
+        "perl6": "perl6",
+        "ruby": "ruby",
+        "go": "go run",
+        "lua": "lua",
+        "groovy": "groovy",
+        "powershell": "powershell -ExecutionPolicy ByPass -File",
+        "bat": "cmd /c",
+        "shellscript": "bash",
+        "fsharp": "fsi",
+        "csharp": "scriptcs",
+        "vbscript": "cscript //Nologo",
+        "typescript": "ts-node",
+        "coffeescript": "coffee",
+        "scala": "scala",
+        "swift": "swift",
+        "julia": "julia",
+        "crystal": "crystal",
+        "ocaml": "ocaml",
+        "r": "Rscript",
+        "applescript": "osascript",
+        "clojure": "lein exec",
+        "haxe": "haxe --cwd $dirWithoutTrailingSlash --run $fileNameWithoutExt",
+        "rust": "cd $dir && rustc $fileName && $dir$fileNameWithoutExt",
+        "racket": "racket",
+        "scheme": "csi -script",
+        "ahk": "autohotkey",
+        "autoit": "autoit3",
+        "dart": "dart",
+        "pascal": "cd $dir && fpc $fileName && $dir$fileNameWithoutExt",
+        "d": "cd $dir && dmd $fileName && $dir$fileNameWithoutExt",
+        "haskell": "runghc",
+        "nim": "nim compile --verbosity:0 --hints:off --run",
+        "lisp": "sbcl --script",
+        "kit": "kitc --run",
+        "v": "v run",
+        "sass": "sass --style expanded",
+        "scss": "scss --style expanded",
+        "less": "cd $dir && lessc $fileName $fileNameWithoutExt.css",
+        "FortranFreeForm": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "fortran-modern": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "fortran_fixed-form": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "fortran": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "sml": "cd $dir && sml $fileName",
+        "mojo": "mojo run",
+        "erlang": "escript",
+        "spwn": "spwn build",
+        "pkl": "cd $dir && pkl eval -f yaml $fileName -o $fileNameWithoutExt.yaml",
+        "gleam": "gleam run -m $fileNameWithoutExt"
+    },
+    "cph.language.cpp.SubmissionCompiler": "GNU G++20 11.2.0 (64 bit, winlibs)",
+    "github.copilot.editor.enableAutoCompletions": true,
+
+    "editor.tokenColorCustomizations": {
+    "textMateRules": [
+        {
+            "scope": [
+                "string.quoted",
+                "string.quoted.single",
+                "string.quoted.double",
+                "string.quoted.triple"
+            ],
+            "settings": {
+                "foreground": "#00fae1"  // light grey color
+            }
+        },
+        {
+            "scope": [
+                "comment",
+                "comment.block",
+                "comment.line"
+            ],
+            "settings": {
+                "foreground": "#9e9e9b" 
+            }
+        },
+        {
+            "scope": [
+                "text.plain",
+                "meta.paragraph.markdown",
+                "markup.inline.raw.markdown",
+                "meta.embedded.block.markdown"
+            ],
+            "settings": {
+                "foreground": "#89beff"  // white color
+            }
+        }
+    ]
+},
+"files.autoSave": "afterDelay",
+"supermaven.otherWarning": false,
+"editor.accessibilitySupport": "off",
+"vs-kubernetes": {
+    "vscode-kubernetes.minikube-path-mac": "/Users/akd/.vs-kubernetes/tools/minikube/darwin-arm64/minikube"
+},
+"editor.wordWrap": "on",
+"database-client.autoSync": true,
+"liveServer.settings.donotShowInfoMsg": true,
+"explorer.confirmDragAndDrop": false,
+"terminal.integrated.fontLigatures.enabled": true,
+"liveServer.settings.AdvanceCustomBrowserCmdLine": "",
+"workbench.productIconTheme": "macos-modern"
+
 }
+
